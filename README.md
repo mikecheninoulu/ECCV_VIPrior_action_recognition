@@ -7,5 +7,7 @@ In this work, we try to propose a data-efficient framework that can train the mo
 The method is validated on the action recognition track of the ECCV 2020 VIPriors challenges and got the 2nd place (88.31\%).
 
 To train the single stream model, run python train.py,
-To train the two stream models, run python train_two_stream.py
+
+To train the two stream models, run python train_two_stream.py,
+
 To test the model, run python test_two_stream_hybrid.py
