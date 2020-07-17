@@ -5,3 +5,7 @@
 In this work, we try to propose a data-efficient framework that can train the model from scratch on small datasets while achieving promising results. Specifically, by introducing a 3D central difference convolution operation, we proposed a novel C3D neural network-based two-stream (Rank Pooling RGB and Optical Flow) framework for the task. 
 
 The method is validated on the action recognition track of the ECCV 2020 VIPriors challenges and got the 2nd place (88.31\%).
+
+To train the single stream model, run python train.py,
+To train the two stream models, run python train_two_stream.py
+To test the model, run python test_two_stream_hybrid.py
